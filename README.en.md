@@ -1,36 +1,24 @@
 # Sennpai
 
-#### Description
-下北泽奇遇记
+This article is translated by translation software, and I do not guarantee the accuracy of the content.
+
+#### Introduction
+
+The Adventure of Shimokitazawa
 
 #### Software Architecture
-Software architecture description
 
-#### Installation
+This program for the author in the lower north Zawa encounter Repu Gao people, after the development of Gao people's advice.
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+Developed with libraries such as Tkinter and Image, it aims to learn the basics of Python and the usage of the Tkinter library.
 
-#### Instructions
+#### Usage instructions
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1. Double-click the exe to open the program
+2. Touch ancestors (Click/double click)
+3. Start Reep
 
-#### Contribution
+#### Contribute
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
-
-
-#### Gitee Feature
-
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1. https://www.python.org/
+2. https://python-pillow.org/
