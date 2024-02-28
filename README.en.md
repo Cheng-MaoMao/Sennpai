@@ -8,7 +8,7 @@ The Adventure of Shimokitazawa
 
 #### Software Architecture
 
-This program for the author in the lower north Zawa encounter Repu Gao people, after the development of Gao people's advice.
+This program for the author in the lower north ze encounter master, developed after master's advice.
 
 Developed with libraries such as Tkinter and Image, it aims to learn the basics of Python and the usage of the Tkinter library.
 
