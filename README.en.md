@@ -18,6 +18,13 @@ Developed with libraries such as Tkinter and Image, it aims to learn the basics 
 2. Touch ancestors (Click/double click)
 3. Start enjoying
 
+#### Screenshots
+![输入图片说明](Sennpai/resource/image/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-02-29%20005721.png)
+
+#### Disclaimer
+
+This software is used for learning and entertainment. If it infringes on the rights and interests of others, please contact and delete it.
+
 #### Contribute
 
 1. https://www.python.org/
