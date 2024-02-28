@@ -1,5 +1,5 @@
 # Sennpai
-[English](https://gitee.com/Orange--Cat/sennpai/blob/main/README.en.md)
+[English](README.en.md)
 
 #### 介绍
 
