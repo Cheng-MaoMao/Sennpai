@@ -15,7 +15,7 @@ Developed with libraries such as Tkinter and Image, it aims to learn the basics 
 #### Usage instructions
 
 1. Double-click the exe to open the program
-2. Touch ancestors (Click/double click)
+2. Touch ancestors (Click/Long press)
 3. Start enjoying
 
 #### Screenshots
