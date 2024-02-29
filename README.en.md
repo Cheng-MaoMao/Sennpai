@@ -19,6 +19,7 @@ Developed with libraries such as Tkinter and Image, it aims to learn the basics 
 3. Start enjoying
 
 #### Screenshots
+
 ![输入图片说明](Sennpai/resource/image/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-02-29%20005721.png)
 
 #### Disclaimer
