@@ -6,9 +6,9 @@ This article is translated by translation software, and I do not guarantee the a
 
 The Adventure of Shimokitazawa
 
-#### Software Architecture
-
 This program for the author in the lower north ze encounter master, developed after master's advice.
+
+#### Software Architecture
 
 Developed with libraries such as Tkinter and Image, it aims to learn the basics of Python and the usage of the Tkinter library.
 
