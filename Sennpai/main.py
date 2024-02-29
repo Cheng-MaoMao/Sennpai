@@ -11,6 +11,12 @@ pygame.mixer.init()
 window = tk.Tk()
 window.withdraw()
 
+# 创建一个全局列表来存储所有的窗口
+windows = []
+
+# 创建一个全局变量来控制窗口的创建
+create_windows = False
+
 def create_main_window():
     window.title('下北泽奇遇记')
 
@@ -44,6 +50,22 @@ def create_main_window():
         is_long_press = True
         threading.Thread(target=play_sound, args=("resource/audio/yuan.mp3", button)).start()
 
+        # 在新的线程中创建窗口
+        global create_windows
+        create_windows = True
+        threading.Thread(target=create_new_windows).start()
+
+    # 创建新窗口的函数
+    def create_new_windows():
+        while create_windows:
+            # 创建新的窗口并添加到全局列表中
+            new_window = tk.Toplevel(window)
+            new_window.title("新窗口")
+            new_label = tk.Label(new_window, image=apply_image)
+            new_label.pack()
+            windows.append(new_window)
+            time.sleep(0.1)  # 每0.1秒创建一个新的窗口
+
     # 鼠标松开事件处理器
     def on_release(event):
         nonlocal is_long_press, timer
@@ -61,6 +83,15 @@ def create_main_window():
             time.sleep(0.1)
         if not pygame.mixer.music.get_busy():  # 音频播放完成后恢复默认图像
             button.config(image=normal_image)
+
+            # 停止创建新的窗口
+            global create_windows
+            create_windows = False
+
+            # 关闭所有的窗口
+            for win in windows:
+                win.destroy()
+            windows.clear()
 
     # 绑定事件处理器
     button.bind("<Button-1>", on_press)
