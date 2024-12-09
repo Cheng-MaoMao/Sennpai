@@ -25,8 +25,3 @@ Developed with libraries such as Tkinter and Image, it aims to learn the basics 
 #### Disclaimer
 
 This software is used for learning and entertainment. If it infringes on the rights and interests of others, please contact and delete it.
-
-#### Contribute
-
-1. https://www.python.org/
-2. https://python-pillow.org/
