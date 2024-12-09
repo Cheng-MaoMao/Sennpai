@@ -25,8 +25,3 @@
 #### 免责声明
 
 此软件为学习娱乐之用，如有侵犯他人权益请联系后会将其删除。
-
-#### 参与贡献
-
-1. https://www.python.org/
-2. https://python-pillow.org/
